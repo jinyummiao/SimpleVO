@@ -1,0 +1,24 @@
+IMG:
+  H: 1226
+  W: 370
+
+FEATURE:
+  NAME: 'SIFT'
+  NUMS: 1000
+
+MATCHER:
+  NAME: 'BF'
+  NORM: 'L2'
+  RATIO_TEST: 0.75
+
+CAMERA:
+  FOCAL: 707.0912
+  PP: (601.8873, 183.1104)
+
+TEST:
+  IMG_ROOT: '/media/mjy/jinyu.miao/kitti05/'
+  GT_POSE: '/media/mjy/jinyu.miao/05.txt'
+  IMG_TYPE: '*.png'
+  SHOW_TRACKING: False
+  KEYFRAME: True
+  KEYFRAME_INLIERS: 50

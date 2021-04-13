@@ -1,0 +1,24 @@
+IMG:
+  H: 1226
+  W: 370
+
+FEATURE:
+  NAME: 'SuperPoint'
+  NUMS: 1000
+
+MATCHER:
+  NAME: 'MNN'
+  NORM: 'L2'
+  NN_THRESHOLD: 0.7
+
+CAMERA:
+  FOCAL: 707.0912
+  PP: (601.8873, 183.1104)
+
+TEST:
+  IMG_ROOT: '/media/mjy/jinyu.miao/kitti05/'
+  GT_POSE: '/media/mjy/jinyu.miao/05.txt'
+  IMG_TYPE: '*.png'
+  SHOW_TRACKING: True
+  KEYFRAME: True
+  KEYFRAME_INLIERS: 50
